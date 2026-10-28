@@ -1,0 +1,1748 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0539def1ab3dad4a77dc3af1bc362222 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0539def1ab3dad4a77dc3af1bc362222" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0539def1ab3dad4a77dc3af1bc362222 = L.map(
+                "map_0539def1ab3dad4a77dc3af1bc362222",
+                {
+                    center: [44.5, 39.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 9,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f93f65b29ece4758f871659cf13393c6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f93f65b29ece4758f871659cf13393c6.addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var circle_aa9f807a80aa4980d47c2f7e2e8ce89d = L.circle(
+                [43.592114, 40.004107],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_2e40b5c8c19435eb461b3c5712c1ed24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8da600b91e39b9a691de088e5dffaa4f = $(`<div id="html_8da600b91e39b9a691de088e5dffaa4f" style="width: 100.0%; height: 100.0%;"><b>Точка 1: МСУ "Черноморское Движение" АМСУ ГРО ППО РАД МОЕ</b><br>Широта: 43.59211<br>Долгота: 40.00411</div>`)[0];
+                popup_2e40b5c8c19435eb461b3c5712c1ed24.setContent(html_8da600b91e39b9a691de088e5dffaa4f);
+            
+        
+
+        circle_aa9f807a80aa4980d47c2f7e2e8ce89d.bindPopup(popup_2e40b5c8c19435eb461b3c5712c1ed24)
+        ;
+
+        
+    
+    
+            var marker_56340f9a96dc11ca54292e17e29b0ddb = L.marker(
+                [43.592114, 40.004107],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_342bdf01c3d173e767dfa7c29169ec83 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                1\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_c1b4a0fed8a98c7a7cc07216213dc2a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22785c3e98c2564c38e0f41d2c04006e = $(`<div id="html_22785c3e98c2564c38e0f41d2c04006e" style="width: 100.0%; height: 100.0%;"><b>Точка 1: МСУ "Черноморское Движение" АМСУ ГРО ППО РАД МОЕ</b><br>Широта: 43.59211<br>Долгота: 40.00411</div>`)[0];
+                popup_c1b4a0fed8a98c7a7cc07216213dc2a2.setContent(html_22785c3e98c2564c38e0f41d2c04006e);
+            
+        
+
+        marker_56340f9a96dc11ca54292e17e29b0ddb.bindPopup(popup_c1b4a0fed8a98c7a7cc07216213dc2a2)
+        ;
+
+        
+    
+    
+                marker_56340f9a96dc11ca54292e17e29b0ddb.setIcon(div_icon_342bdf01c3d173e767dfa7c29169ec83);
+            
+    
+            var circle_db30d88f3d49902fbe3d93586328cba9 = L.circle(
+                [43.836064, 39.976078],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_9d4bfae52cfc71c44eda159f5e04cf49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f9dcc6bb0155d83820638b666b4c8ea = $(`<div id="html_6f9dcc6bb0155d83820638b666b4c8ea" style="width: 100.0%; height: 100.0%;"><b>Точка 2: Точка 2 (испр.)</b><br>Широта: 43.83606<br>Долгота: 39.97608</div>`)[0];
+                popup_9d4bfae52cfc71c44eda159f5e04cf49.setContent(html_6f9dcc6bb0155d83820638b666b4c8ea);
+            
+        
+
+        circle_db30d88f3d49902fbe3d93586328cba9.bindPopup(popup_9d4bfae52cfc71c44eda159f5e04cf49)
+        ;
+
+        
+    
+    
+            var marker_f081a795e10eb2ef43dc3361a79dee0d = L.marker(
+                [43.836064, 39.976078],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_f1976f4f4e33e9da32d5fc41ca653eaa = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                2\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_1a165ae8cbdf3ffcc37891240faa92e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8626dded6f1687cbd9b5162065563711 = $(`<div id="html_8626dded6f1687cbd9b5162065563711" style="width: 100.0%; height: 100.0%;"><b>Точка 2: Точка 2 (испр.)</b><br>Широта: 43.83606<br>Долгота: 39.97608</div>`)[0];
+                popup_1a165ae8cbdf3ffcc37891240faa92e8.setContent(html_8626dded6f1687cbd9b5162065563711);
+            
+        
+
+        marker_f081a795e10eb2ef43dc3361a79dee0d.bindPopup(popup_1a165ae8cbdf3ffcc37891240faa92e8)
+        ;
+
+        
+    
+    
+                marker_f081a795e10eb2ef43dc3361a79dee0d.setIcon(div_icon_f1976f4f4e33e9da32d5fc41ca653eaa);
+            
+    
+            var circle_73dade5c5a23089a9396c0cbbc68a5ec = L.circle(
+                [44.512567, 39.136656],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_957cdea87336425792df729c4e31e45a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d768dde22a238cec737b3e6e09e8eb87 = $(`<div id="html_d768dde22a238cec737b3e6e09e8eb87" style="width: 100.0%; height: 100.0%;"><b>Точка 3: ШуШу-Ууш 1</b><br>Широта: 44.51257<br>Долгота: 39.13666</div>`)[0];
+                popup_957cdea87336425792df729c4e31e45a.setContent(html_d768dde22a238cec737b3e6e09e8eb87);
+            
+        
+
+        circle_73dade5c5a23089a9396c0cbbc68a5ec.bindPopup(popup_957cdea87336425792df729c4e31e45a)
+        ;
+
+        
+    
+    
+            var marker_c654de14cda6cc24cce21f4ea8028a1b = L.marker(
+                [44.512567, 39.136656],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_ccd2c047711920ca31198bcef8a98621 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                3\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_24b412666387d56531fa4e78890d73fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed2795b60182a6751f659d2b01c2a869 = $(`<div id="html_ed2795b60182a6751f659d2b01c2a869" style="width: 100.0%; height: 100.0%;"><b>Точка 3: ШуШу-Ууш 1</b><br>Широта: 44.51257<br>Долгота: 39.13666</div>`)[0];
+                popup_24b412666387d56531fa4e78890d73fc.setContent(html_ed2795b60182a6751f659d2b01c2a869);
+            
+        
+
+        marker_c654de14cda6cc24cce21f4ea8028a1b.bindPopup(popup_24b412666387d56531fa4e78890d73fc)
+        ;
+
+        
+    
+    
+                marker_c654de14cda6cc24cce21f4ea8028a1b.setIcon(div_icon_ccd2c047711920ca31198bcef8a98621);
+            
+    
+            var circle_16d3f0065b0efc74fd97dc4c9e5cd5dc = L.circle(
+                [44.512334, 39.139111],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_b8c38c5721506e6ac97bc8bd6ea84820 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f34b49f5f8495b30cbd82b75e563e2b = $(`<div id="html_3f34b49f5f8495b30cbd82b75e563e2b" style="width: 100.0%; height: 100.0%;"><b>Точка 4: ШуШу-Ууш 2</b><br>Широта: 44.51233<br>Долгота: 39.13911</div>`)[0];
+                popup_b8c38c5721506e6ac97bc8bd6ea84820.setContent(html_3f34b49f5f8495b30cbd82b75e563e2b);
+            
+        
+
+        circle_16d3f0065b0efc74fd97dc4c9e5cd5dc.bindPopup(popup_b8c38c5721506e6ac97bc8bd6ea84820)
+        ;
+
+        
+    
+    
+            var marker_c81c5d07737f4e17816c09e3f885b5ed = L.marker(
+                [44.512334, 39.139111],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_248022466ae6432eadba03fbc6ba2c97 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                4\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_d0565ba4df35f7eafbf0827b2250db8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c8816f6bea4114b632b99f0e743ef1d = $(`<div id="html_3c8816f6bea4114b632b99f0e743ef1d" style="width: 100.0%; height: 100.0%;"><b>Точка 4: ШуШу-Ууш 2</b><br>Широта: 44.51233<br>Долгота: 39.13911</div>`)[0];
+                popup_d0565ba4df35f7eafbf0827b2250db8f.setContent(html_3c8816f6bea4114b632b99f0e743ef1d);
+            
+        
+
+        marker_c81c5d07737f4e17816c09e3f885b5ed.bindPopup(popup_d0565ba4df35f7eafbf0827b2250db8f)
+        ;
+
+        
+    
+    
+                marker_c81c5d07737f4e17816c09e3f885b5ed.setIcon(div_icon_248022466ae6432eadba03fbc6ba2c97);
+            
+    
+            var circle_efc151f49ece6a97e6c782e2f477bb42 = L.circle(
+                [44.519643, 39.154644],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_f62a400b2da898f34e3efc8d63cb89b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be916651e36fee732032404da1653e3f = $(`<div id="html_be916651e36fee732032404da1653e3f" style="width: 100.0%; height: 100.0%;"><b>Точка 5: ШуШу-Ууш 3</b><br>Широта: 44.51964<br>Долгота: 39.15464</div>`)[0];
+                popup_f62a400b2da898f34e3efc8d63cb89b0.setContent(html_be916651e36fee732032404da1653e3f);
+            
+        
+
+        circle_efc151f49ece6a97e6c782e2f477bb42.bindPopup(popup_f62a400b2da898f34e3efc8d63cb89b0)
+        ;
+
+        
+    
+    
+            var marker_6d567ac785c8c2deddb4f7991e7ec6d3 = L.marker(
+                [44.519643, 39.154644],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_1343bb2907554dc61bbc1628c333d0c9 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                5\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_c4d44b8d9e44f2805ac3426441f3c693 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65e9ef04be0f82520e11cde96a763719 = $(`<div id="html_65e9ef04be0f82520e11cde96a763719" style="width: 100.0%; height: 100.0%;"><b>Точка 5: ШуШу-Ууш 3</b><br>Широта: 44.51964<br>Долгота: 39.15464</div>`)[0];
+                popup_c4d44b8d9e44f2805ac3426441f3c693.setContent(html_65e9ef04be0f82520e11cde96a763719);
+            
+        
+
+        marker_6d567ac785c8c2deddb4f7991e7ec6d3.bindPopup(popup_c4d44b8d9e44f2805ac3426441f3c693)
+        ;
+
+        
+    
+    
+                marker_6d567ac785c8c2deddb4f7991e7ec6d3.setIcon(div_icon_1343bb2907554dc61bbc1628c333d0c9);
+            
+    
+            var circle_4237d3ffcb1a27389c0d1429f8ed8d34 = L.circle(
+                [44.618921, 38.124093],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_10912881a87b5bd7ff251d38c39b01b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34d3d5b1e19a4a9bd5de5260bb64d459 = $(`<div id="html_34d3d5b1e19a4a9bd5de5260bb64d459" style="width: 100.0%; height: 100.0%;"><b>Точка 6: Угодье Анапа 1</b><br>Широта: 44.61892<br>Долгота: 38.12409</div>`)[0];
+                popup_10912881a87b5bd7ff251d38c39b01b3.setContent(html_34d3d5b1e19a4a9bd5de5260bb64d459);
+            
+        
+
+        circle_4237d3ffcb1a27389c0d1429f8ed8d34.bindPopup(popup_10912881a87b5bd7ff251d38c39b01b3)
+        ;
+
+        
+    
+    
+            var marker_0fe6f00494660de7be64690837ba28e0 = L.marker(
+                [44.618921, 38.124093],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_f8e8b1b40c50d70c23ce701a75e857c0 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                6\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_93c4bd55235b0fdc9d3c0377b820002e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b55e0f188f25fb86db23a832f133810 = $(`<div id="html_4b55e0f188f25fb86db23a832f133810" style="width: 100.0%; height: 100.0%;"><b>Точка 6: Угодье Анапа 1</b><br>Широта: 44.61892<br>Долгота: 38.12409</div>`)[0];
+                popup_93c4bd55235b0fdc9d3c0377b820002e.setContent(html_4b55e0f188f25fb86db23a832f133810);
+            
+        
+
+        marker_0fe6f00494660de7be64690837ba28e0.bindPopup(popup_93c4bd55235b0fdc9d3c0377b820002e)
+        ;
+
+        
+    
+    
+                marker_0fe6f00494660de7be64690837ba28e0.setIcon(div_icon_f8e8b1b40c50d70c23ce701a75e857c0);
+            
+    
+            var circle_081f2393b0e7a0843f509433d06f9ebc = L.circle(
+                [43.629047, 39.883063],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_570f9a6c793b6a6e80e233d126969857 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64582451547b0c18db997d6fb2abafa8 = $(`<div id="html_64582451547b0c18db997d6fb2abafa8" style="width: 100.0%; height: 100.0%;"><b>Точка 7: Угодье Сочи 1</b><br>Широта: 43.62905<br>Долгота: 39.88306</div>`)[0];
+                popup_570f9a6c793b6a6e80e233d126969857.setContent(html_64582451547b0c18db997d6fb2abafa8);
+            
+        
+
+        circle_081f2393b0e7a0843f509433d06f9ebc.bindPopup(popup_570f9a6c793b6a6e80e233d126969857)
+        ;
+
+        
+    
+    
+            var marker_a7d2281e90622352e976d96e63de501b = L.marker(
+                [43.629047, 39.883063],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_e85c2da01a012d88bc2148d37f903929 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                7\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_9760b3e68407a1d0b71be9a84cc00f27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ea162a35148a09a0eb6c3668e18432b = $(`<div id="html_9ea162a35148a09a0eb6c3668e18432b" style="width: 100.0%; height: 100.0%;"><b>Точка 7: Угодье Сочи 1</b><br>Широта: 43.62905<br>Долгота: 39.88306</div>`)[0];
+                popup_9760b3e68407a1d0b71be9a84cc00f27.setContent(html_9ea162a35148a09a0eb6c3668e18432b);
+            
+        
+
+        marker_a7d2281e90622352e976d96e63de501b.bindPopup(popup_9760b3e68407a1d0b71be9a84cc00f27)
+        ;
+
+        
+    
+    
+                marker_a7d2281e90622352e976d96e63de501b.setIcon(div_icon_e85c2da01a012d88bc2148d37f903929);
+            
+    
+            var circle_166fa4ee873183e0d468bcdc783844b5 = L.circle(
+                [44.752463, 38.072348],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_a69c221b7098baade5119e104f966c96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bae894208e3c315af3fd42274970110 = $(`<div id="html_9bae894208e3c315af3fd42274970110" style="width: 100.0%; height: 100.0%;"><b>Точка 8: Угодье Анапа 2</b><br>Широта: 44.75246<br>Долгота: 38.07235</div>`)[0];
+                popup_a69c221b7098baade5119e104f966c96.setContent(html_9bae894208e3c315af3fd42274970110);
+            
+        
+
+        circle_166fa4ee873183e0d468bcdc783844b5.bindPopup(popup_a69c221b7098baade5119e104f966c96)
+        ;
+
+        
+    
+    
+            var marker_c002ce79f9516d0e16e34fa29b1bfa0d = L.marker(
+                [44.752463, 38.072348],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_8ad55335cc15e8d2bd51ec69eca9d242 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                8\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_601b71067145dca0a5c35f4e71dd09df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc0ed40fc66ee9f4aa82e1e32907b5c0 = $(`<div id="html_fc0ed40fc66ee9f4aa82e1e32907b5c0" style="width: 100.0%; height: 100.0%;"><b>Точка 8: Угодье Анапа 2</b><br>Широта: 44.75246<br>Долгота: 38.07235</div>`)[0];
+                popup_601b71067145dca0a5c35f4e71dd09df.setContent(html_fc0ed40fc66ee9f4aa82e1e32907b5c0);
+            
+        
+
+        marker_c002ce79f9516d0e16e34fa29b1bfa0d.bindPopup(popup_601b71067145dca0a5c35f4e71dd09df)
+        ;
+
+        
+    
+    
+                marker_c002ce79f9516d0e16e34fa29b1bfa0d.setIcon(div_icon_8ad55335cc15e8d2bd51ec69eca9d242);
+            
+    
+            var circle_98194d46c167e3ed538e78ba1d25c4a4 = L.circle(
+                [43.624592, 39.88539],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_81f8efee738fee627de9baa6475d6c5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80fd130651c394b28f929350e91fd2d2 = $(`<div id="html_80fd130651c394b28f929350e91fd2d2" style="width: 100.0%; height: 100.0%;"><b>Точка 9: Угодье Сочи 2</b><br>Широта: 43.62459<br>Долгота: 39.88539</div>`)[0];
+                popup_81f8efee738fee627de9baa6475d6c5a.setContent(html_80fd130651c394b28f929350e91fd2d2);
+            
+        
+
+        circle_98194d46c167e3ed538e78ba1d25c4a4.bindPopup(popup_81f8efee738fee627de9baa6475d6c5a)
+        ;
+
+        
+    
+    
+            var marker_c6d37f8dc9341ded952a51ac606497f1 = L.marker(
+                [43.624592, 39.88539],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_38c070a2292222c8fabd4a68c8470aa3 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                9\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_892c24196fbc6495bab230c2a1a043ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c68461ceb785437d55d6cdfc0dbc2685 = $(`<div id="html_c68461ceb785437d55d6cdfc0dbc2685" style="width: 100.0%; height: 100.0%;"><b>Точка 9: Угодье Сочи 2</b><br>Широта: 43.62459<br>Долгота: 39.88539</div>`)[0];
+                popup_892c24196fbc6495bab230c2a1a043ec.setContent(html_c68461ceb785437d55d6cdfc0dbc2685);
+            
+        
+
+        marker_c6d37f8dc9341ded952a51ac606497f1.bindPopup(popup_892c24196fbc6495bab230c2a1a043ec)
+        ;
+
+        
+    
+    
+                marker_c6d37f8dc9341ded952a51ac606497f1.setIcon(div_icon_38c070a2292222c8fabd4a68c8470aa3);
+            
+    
+            var circle_7f940c187416b1b6d59b1ab769c5ec7e = L.circle(
+                [43.625373, 39.882205],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_f2bb99380f046a9022c78156e1eaff2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c448fd111aecb35a9c244259453e559a = $(`<div id="html_c448fd111aecb35a9c244259453e559a" style="width: 100.0%; height: 100.0%;"><b>Точка 10: Угодье Сочи 3</b><br>Широта: 43.62537<br>Долгота: 39.88220</div>`)[0];
+                popup_f2bb99380f046a9022c78156e1eaff2c.setContent(html_c448fd111aecb35a9c244259453e559a);
+            
+        
+
+        circle_7f940c187416b1b6d59b1ab769c5ec7e.bindPopup(popup_f2bb99380f046a9022c78156e1eaff2c)
+        ;
+
+        
+    
+    
+            var marker_4662d8e3b165ff3e8f26a91a657ee462 = L.marker(
+                [43.625373, 39.882205],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_7153e6a04ff6d240bfb1f8f6b4da98ad = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                10\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_523a1befef407d6fee5473f9cc77afb1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0967850bfb4cf109600bfaa6a1d7209a = $(`<div id="html_0967850bfb4cf109600bfaa6a1d7209a" style="width: 100.0%; height: 100.0%;"><b>Точка 10: Угодье Сочи 3</b><br>Широта: 43.62537<br>Долгота: 39.88220</div>`)[0];
+                popup_523a1befef407d6fee5473f9cc77afb1.setContent(html_0967850bfb4cf109600bfaa6a1d7209a);
+            
+        
+
+        marker_4662d8e3b165ff3e8f26a91a657ee462.bindPopup(popup_523a1befef407d6fee5473f9cc77afb1)
+        ;
+
+        
+    
+    
+                marker_4662d8e3b165ff3e8f26a91a657ee462.setIcon(div_icon_7153e6a04ff6d240bfb1f8f6b4da98ad);
+            
+    
+            var circle_98517efea1e68053ad1e327e2a31ce2f = L.circle(
+                [43.627373, 39.842409],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_f32d68133edfe8a496e59d1da4529d98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbc0000153899b5da31d6030f36e66e4 = $(`<div id="html_cbc0000153899b5da31d6030f36e66e4" style="width: 100.0%; height: 100.0%;"><b>Точка 11: Угодье Сочи 4</b><br>Широта: 43.62737<br>Долгота: 39.84241</div>`)[0];
+                popup_f32d68133edfe8a496e59d1da4529d98.setContent(html_cbc0000153899b5da31d6030f36e66e4);
+            
+        
+
+        circle_98517efea1e68053ad1e327e2a31ce2f.bindPopup(popup_f32d68133edfe8a496e59d1da4529d98)
+        ;
+
+        
+    
+    
+            var marker_28e8b4ba962838fc531a618c23cb871d = L.marker(
+                [43.627373, 39.842409],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_aaa93d9f81054cfc156dfc99196d5177 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                11\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_53dd0a202caad636beb3bcf0ccbc2225 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56e35b25d5ee08f270d1194b35c438b1 = $(`<div id="html_56e35b25d5ee08f270d1194b35c438b1" style="width: 100.0%; height: 100.0%;"><b>Точка 11: Угодье Сочи 4</b><br>Широта: 43.62737<br>Долгота: 39.84241</div>`)[0];
+                popup_53dd0a202caad636beb3bcf0ccbc2225.setContent(html_56e35b25d5ee08f270d1194b35c438b1);
+            
+        
+
+        marker_28e8b4ba962838fc531a618c23cb871d.bindPopup(popup_53dd0a202caad636beb3bcf0ccbc2225)
+        ;
+
+        
+    
+    
+                marker_28e8b4ba962838fc531a618c23cb871d.setIcon(div_icon_aaa93d9f81054cfc156dfc99196d5177);
+            
+    
+            var circle_89b897c7a299b80ebf926bd523b8d829 = L.circle(
+                [43.621348, 39.927821],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_816af5d55587b8fa319148d46fa38096 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c42b7ea001bd663b30e1916218e4d60 = $(`<div id="html_5c42b7ea001bd663b30e1916218e4d60" style="width: 100.0%; height: 100.0%;"><b>Точка 12: Угодье Сочи 5</b><br>Широта: 43.62135<br>Долгота: 39.92782</div>`)[0];
+                popup_816af5d55587b8fa319148d46fa38096.setContent(html_5c42b7ea001bd663b30e1916218e4d60);
+            
+        
+
+        circle_89b897c7a299b80ebf926bd523b8d829.bindPopup(popup_816af5d55587b8fa319148d46fa38096)
+        ;
+
+        
+    
+    
+            var marker_e192baa44143f4dc9bb5e93c96de2fd6 = L.marker(
+                [43.621348, 39.927821],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_4f1dfcab19dd3ec560522f3c7ee7ca75 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                12\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_c93d64ae19c54e2b0e2437273ccd2c92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45bb78f3bd142744d36fcfd5c68ab075 = $(`<div id="html_45bb78f3bd142744d36fcfd5c68ab075" style="width: 100.0%; height: 100.0%;"><b>Точка 12: Угодье Сочи 5</b><br>Широта: 43.62135<br>Долгота: 39.92782</div>`)[0];
+                popup_c93d64ae19c54e2b0e2437273ccd2c92.setContent(html_45bb78f3bd142744d36fcfd5c68ab075);
+            
+        
+
+        marker_e192baa44143f4dc9bb5e93c96de2fd6.bindPopup(popup_c93d64ae19c54e2b0e2437273ccd2c92)
+        ;
+
+        
+    
+    
+                marker_e192baa44143f4dc9bb5e93c96de2fd6.setIcon(div_icon_4f1dfcab19dd3ec560522f3c7ee7ca75);
+            
+    
+            var circle_449a2bdba1fa3e26c0c4cbbe6f35739d = L.circle(
+                [43.789443, 39.668752],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_616928ad9bdb6731b9a7fc674d04a76a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fad37074a46d4d1b674351486fc70f7c = $(`<div id="html_fad37074a46d4d1b674351486fc70f7c" style="width: 100.0%; height: 100.0%;"><b>Точка 13: Угодье Туапсе</b><br>Широта: 43.78944<br>Долгота: 39.66875</div>`)[0];
+                popup_616928ad9bdb6731b9a7fc674d04a76a.setContent(html_fad37074a46d4d1b674351486fc70f7c);
+            
+        
+
+        circle_449a2bdba1fa3e26c0c4cbbe6f35739d.bindPopup(popup_616928ad9bdb6731b9a7fc674d04a76a)
+        ;
+
+        
+    
+    
+            var marker_5af5d88b85800e7192ee5af94e1cc5ee = L.marker(
+                [43.789443, 39.668752],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_db838c032d9a085e3a78b8a5fe1ce443 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                13\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_8cf278eb67a3b5b04c07cc6c3e978f66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ce67d3e60bc77a4ac4a32e194e226ca = $(`<div id="html_5ce67d3e60bc77a4ac4a32e194e226ca" style="width: 100.0%; height: 100.0%;"><b>Точка 13: Угодье Туапсе</b><br>Широта: 43.78944<br>Долгота: 39.66875</div>`)[0];
+                popup_8cf278eb67a3b5b04c07cc6c3e978f66.setContent(html_5ce67d3e60bc77a4ac4a32e194e226ca);
+            
+        
+
+        marker_5af5d88b85800e7192ee5af94e1cc5ee.bindPopup(popup_8cf278eb67a3b5b04c07cc6c3e978f66)
+        ;
+
+        
+    
+    
+                marker_5af5d88b85800e7192ee5af94e1cc5ee.setIcon(div_icon_db838c032d9a085e3a78b8a5fe1ce443);
+            
+    
+            var circle_dd07659a3ccea8d71a520b128cb9f6d7 = L.circle(
+                [45.058209, 37.603921],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_251ec43bda61e2901b7d9af6dc8dc75d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39be8082258414a8ef69d688f5866b48 = $(`<div id="html_39be8082258414a8ef69d688f5866b48" style="width: 100.0%; height: 100.0%;"><b>Точка 14: Угодье Тамань 1</b><br>Широта: 45.05821<br>Долгота: 37.60392</div>`)[0];
+                popup_251ec43bda61e2901b7d9af6dc8dc75d.setContent(html_39be8082258414a8ef69d688f5866b48);
+            
+        
+
+        circle_dd07659a3ccea8d71a520b128cb9f6d7.bindPopup(popup_251ec43bda61e2901b7d9af6dc8dc75d)
+        ;
+
+        
+    
+    
+            var marker_4c79436a9c741ad601935d6520b155e1 = L.marker(
+                [45.058209, 37.603921],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_30e30028df2ce0011c6f745ddd6614e5 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                14\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_e3588be7f9f8f8a6d4b17770879cedfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a92c137181e8209f32ef83921ca5deb7 = $(`<div id="html_a92c137181e8209f32ef83921ca5deb7" style="width: 100.0%; height: 100.0%;"><b>Точка 14: Угодье Тамань 1</b><br>Широта: 45.05821<br>Долгота: 37.60392</div>`)[0];
+                popup_e3588be7f9f8f8a6d4b17770879cedfd.setContent(html_a92c137181e8209f32ef83921ca5deb7);
+            
+        
+
+        marker_4c79436a9c741ad601935d6520b155e1.bindPopup(popup_e3588be7f9f8f8a6d4b17770879cedfd)
+        ;
+
+        
+    
+    
+                marker_4c79436a9c741ad601935d6520b155e1.setIcon(div_icon_30e30028df2ce0011c6f745ddd6614e5);
+            
+    
+            var circle_dfdda529eec2e6face14a9b59d18b54a = L.circle(
+                [43.558746, 39.88992],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_f62046366d0cef21bfe587aa7abdd1b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c165f8b5e26a68fdbdef528bfcc60b93 = $(`<div id="html_c165f8b5e26a68fdbdef528bfcc60b93" style="width: 100.0%; height: 100.0%;"><b>Точка 15: Угодье Сочи 6</b><br>Широта: 43.55875<br>Долгота: 39.88992</div>`)[0];
+                popup_f62046366d0cef21bfe587aa7abdd1b2.setContent(html_c165f8b5e26a68fdbdef528bfcc60b93);
+            
+        
+
+        circle_dfdda529eec2e6face14a9b59d18b54a.bindPopup(popup_f62046366d0cef21bfe587aa7abdd1b2)
+        ;
+
+        
+    
+    
+            var marker_06993f28fd4ff0e16d2bffd762106a00 = L.marker(
+                [43.558746, 39.88992],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_5e627fdea7fa8017a142242286759d4c = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                15\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_15aa314a3ced5afffe5c061fd43cac78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c7234aaeaf07f632a52372f8e364913 = $(`<div id="html_4c7234aaeaf07f632a52372f8e364913" style="width: 100.0%; height: 100.0%;"><b>Точка 15: Угодье Сочи 6</b><br>Широта: 43.55875<br>Долгота: 39.88992</div>`)[0];
+                popup_15aa314a3ced5afffe5c061fd43cac78.setContent(html_4c7234aaeaf07f632a52372f8e364913);
+            
+        
+
+        marker_06993f28fd4ff0e16d2bffd762106a00.bindPopup(popup_15aa314a3ced5afffe5c061fd43cac78)
+        ;
+
+        
+    
+    
+                marker_06993f28fd4ff0e16d2bffd762106a00.setIcon(div_icon_5e627fdea7fa8017a142242286759d4c);
+            
+    
+            var circle_706385506e62f2f8290911151c5832f0 = L.circle(
+                [43.555476, 39.880114],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_854e45329cdd2f70ada1728a433248b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4504b5dc445f8a48c0ea21bb560ce4b5 = $(`<div id="html_4504b5dc445f8a48c0ea21bb560ce4b5" style="width: 100.0%; height: 100.0%;"><b>Точка 16: Угодье Сочи 7</b><br>Широта: 43.55548<br>Долгота: 39.88011</div>`)[0];
+                popup_854e45329cdd2f70ada1728a433248b8.setContent(html_4504b5dc445f8a48c0ea21bb560ce4b5);
+            
+        
+
+        circle_706385506e62f2f8290911151c5832f0.bindPopup(popup_854e45329cdd2f70ada1728a433248b8)
+        ;
+
+        
+    
+    
+            var marker_d81a19df2603a8686bdaf7bb278e461c = L.marker(
+                [43.555476, 39.880114],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_311919dd62b9a7ab2b4530078e527eef = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                16\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_707444ac4f5a64fab0b7f9705549aa3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a243d7f6cf23a71a3412f8030c38ece5 = $(`<div id="html_a243d7f6cf23a71a3412f8030c38ece5" style="width: 100.0%; height: 100.0%;"><b>Точка 16: Угодье Сочи 7</b><br>Широта: 43.55548<br>Долгота: 39.88011</div>`)[0];
+                popup_707444ac4f5a64fab0b7f9705549aa3c.setContent(html_a243d7f6cf23a71a3412f8030c38ece5);
+            
+        
+
+        marker_d81a19df2603a8686bdaf7bb278e461c.bindPopup(popup_707444ac4f5a64fab0b7f9705549aa3c)
+        ;
+
+        
+    
+    
+                marker_d81a19df2603a8686bdaf7bb278e461c.setIcon(div_icon_311919dd62b9a7ab2b4530078e527eef);
+            
+    
+            var circle_6d8f1b55b5e391efde72b436e857dc59 = L.circle(
+                [43.541829, 39.977703],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_3303694344926cd2c0c10af0500cb4fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d300f473a2e1e97da424459287a01ebb = $(`<div id="html_d300f473a2e1e97da424459287a01ebb" style="width: 100.0%; height: 100.0%;"><b>Точка 17: Угодье Сочи 8</b><br>Широта: 43.54183<br>Долгота: 39.97770</div>`)[0];
+                popup_3303694344926cd2c0c10af0500cb4fa.setContent(html_d300f473a2e1e97da424459287a01ebb);
+            
+        
+
+        circle_6d8f1b55b5e391efde72b436e857dc59.bindPopup(popup_3303694344926cd2c0c10af0500cb4fa)
+        ;
+
+        
+    
+    
+            var marker_ac0acf386ce62e90121a76cb3bdd4b0a = L.marker(
+                [43.541829, 39.977703],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_95a32ac2addb9c9f2247d0b8d36fdfb9 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                17\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_70ece427c406e083ebe268fa78a4c799 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6d3f42cbd92e1fdc81471d855c3bd1f = $(`<div id="html_f6d3f42cbd92e1fdc81471d855c3bd1f" style="width: 100.0%; height: 100.0%;"><b>Точка 17: Угодье Сочи 8</b><br>Широта: 43.54183<br>Долгота: 39.97770</div>`)[0];
+                popup_70ece427c406e083ebe268fa78a4c799.setContent(html_f6d3f42cbd92e1fdc81471d855c3bd1f);
+            
+        
+
+        marker_ac0acf386ce62e90121a76cb3bdd4b0a.bindPopup(popup_70ece427c406e083ebe268fa78a4c799)
+        ;
+
+        
+    
+    
+                marker_ac0acf386ce62e90121a76cb3bdd4b0a.setIcon(div_icon_95a32ac2addb9c9f2247d0b8d36fdfb9);
+            
+    
+            var circle_9d4e9122814960bd37f5d6181bf9d423 = L.circle(
+                [43.559395, 39.89994],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_b5405d5adb73a4830cbc8b83dfb35fc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_265d28cdb88f17073490200e9aedc905 = $(`<div id="html_265d28cdb88f17073490200e9aedc905" style="width: 100.0%; height: 100.0%;"><b>Точка 18: Угодье Сочи 9</b><br>Широта: 43.55940<br>Долгота: 39.89994</div>`)[0];
+                popup_b5405d5adb73a4830cbc8b83dfb35fc4.setContent(html_265d28cdb88f17073490200e9aedc905);
+            
+        
+
+        circle_9d4e9122814960bd37f5d6181bf9d423.bindPopup(popup_b5405d5adb73a4830cbc8b83dfb35fc4)
+        ;
+
+        
+    
+    
+            var marker_08d5a9a85f07ebb6457de7664a75e514 = L.marker(
+                [43.559395, 39.89994],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_c2c55d65da59733419c8b486fd6d4da9 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                18\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_cf0a751f453095d6fe707fe26da654ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1fdeb25a90c89ffd96b485a42cf412b = $(`<div id="html_b1fdeb25a90c89ffd96b485a42cf412b" style="width: 100.0%; height: 100.0%;"><b>Точка 18: Угодье Сочи 9</b><br>Широта: 43.55940<br>Долгота: 39.89994</div>`)[0];
+                popup_cf0a751f453095d6fe707fe26da654ae.setContent(html_b1fdeb25a90c89ffd96b485a42cf412b);
+            
+        
+
+        marker_08d5a9a85f07ebb6457de7664a75e514.bindPopup(popup_cf0a751f453095d6fe707fe26da654ae)
+        ;
+
+        
+    
+    
+                marker_08d5a9a85f07ebb6457de7664a75e514.setIcon(div_icon_c2c55d65da59733419c8b486fd6d4da9);
+            
+    
+            var circle_07d3afc39d292ef8bfe58a94101cd51b = L.circle(
+                [43.550002, 39.895391],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_454a7ceb9b670ab8ad94024c4a05b484 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c15f850ce476665b460d2701a92f3db = $(`<div id="html_2c15f850ce476665b460d2701a92f3db" style="width: 100.0%; height: 100.0%;"><b>Точка 19: Угодье Сочи 10</b><br>Широта: 43.55000<br>Долгота: 39.89539</div>`)[0];
+                popup_454a7ceb9b670ab8ad94024c4a05b484.setContent(html_2c15f850ce476665b460d2701a92f3db);
+            
+        
+
+        circle_07d3afc39d292ef8bfe58a94101cd51b.bindPopup(popup_454a7ceb9b670ab8ad94024c4a05b484)
+        ;
+
+        
+    
+    
+            var marker_b6a9ce1ccc4e3a6ef747bb8289cc88f7 = L.marker(
+                [43.550002, 39.895391],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_6d1ec9f6888da626d3b1b34b363108d0 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                19\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_1a5ffce557de2e66a3aafb4eb5f8068e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_646e9b088a226ce45b39da2b9f3d4132 = $(`<div id="html_646e9b088a226ce45b39da2b9f3d4132" style="width: 100.0%; height: 100.0%;"><b>Точка 19: Угодье Сочи 10</b><br>Широта: 43.55000<br>Долгота: 39.89539</div>`)[0];
+                popup_1a5ffce557de2e66a3aafb4eb5f8068e.setContent(html_646e9b088a226ce45b39da2b9f3d4132);
+            
+        
+
+        marker_b6a9ce1ccc4e3a6ef747bb8289cc88f7.bindPopup(popup_1a5ffce557de2e66a3aafb4eb5f8068e)
+        ;
+
+        
+    
+    
+                marker_b6a9ce1ccc4e3a6ef747bb8289cc88f7.setIcon(div_icon_6d1ec9f6888da626d3b1b34b363108d0);
+            
+    
+            var circle_18a6a39d95de43a5c060886c64676c13 = L.circle(
+                [43.538108, 39.88035],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_0c6d922218d4687416d56b23905583eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ee914b8edde4de479434d4cb777c034 = $(`<div id="html_4ee914b8edde4de479434d4cb777c034" style="width: 100.0%; height: 100.0%;"><b>Точка 20: Угодье Сочи 11</b><br>Широта: 43.53811<br>Долгота: 39.88035</div>`)[0];
+                popup_0c6d922218d4687416d56b23905583eb.setContent(html_4ee914b8edde4de479434d4cb777c034);
+            
+        
+
+        circle_18a6a39d95de43a5c060886c64676c13.bindPopup(popup_0c6d922218d4687416d56b23905583eb)
+        ;
+
+        
+    
+    
+            var marker_c3620cd6202bc23f87a20f1611123fe4 = L.marker(
+                [43.538108, 39.88035],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_925f567158bd2f8fe56a2a0121581dd6 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                20\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_69ced125819f5e657cc20eb93d65123b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9c7cd4e15d9ab5395ae992049879742 = $(`<div id="html_a9c7cd4e15d9ab5395ae992049879742" style="width: 100.0%; height: 100.0%;"><b>Точка 20: Угодье Сочи 11</b><br>Широта: 43.53811<br>Долгота: 39.88035</div>`)[0];
+                popup_69ced125819f5e657cc20eb93d65123b.setContent(html_a9c7cd4e15d9ab5395ae992049879742);
+            
+        
+
+        marker_c3620cd6202bc23f87a20f1611123fe4.bindPopup(popup_69ced125819f5e657cc20eb93d65123b)
+        ;
+
+        
+    
+    
+                marker_c3620cd6202bc23f87a20f1611123fe4.setIcon(div_icon_925f567158bd2f8fe56a2a0121581dd6);
+            
+    
+            var circle_d7ff3fbc66271e7c372cec04f90d1cb5 = L.circle(
+                [43.525948, 39.877194],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_0af1ee6d99c1baabbf0e811957f4b587 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39333f262fc15c3f23f5af5d76d59073 = $(`<div id="html_39333f262fc15c3f23f5af5d76d59073" style="width: 100.0%; height: 100.0%;"><b>Точка 21: Угодье Сочи 12</b><br>Широта: 43.52595<br>Долгота: 39.87719</div>`)[0];
+                popup_0af1ee6d99c1baabbf0e811957f4b587.setContent(html_39333f262fc15c3f23f5af5d76d59073);
+            
+        
+
+        circle_d7ff3fbc66271e7c372cec04f90d1cb5.bindPopup(popup_0af1ee6d99c1baabbf0e811957f4b587)
+        ;
+
+        
+    
+    
+            var marker_2cfb2f7f3dc30e78310a9e3d675fd7ca = L.marker(
+                [43.525948, 39.877194],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_2726f9dcb3b730028c1e6db5ba877219 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                21\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_a96f172ada867fb1e61636ce8f9ec401 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_308ce06f52bf648ddb499f4d0170e730 = $(`<div id="html_308ce06f52bf648ddb499f4d0170e730" style="width: 100.0%; height: 100.0%;"><b>Точка 21: Угодье Сочи 12</b><br>Широта: 43.52595<br>Долгота: 39.87719</div>`)[0];
+                popup_a96f172ada867fb1e61636ce8f9ec401.setContent(html_308ce06f52bf648ddb499f4d0170e730);
+            
+        
+
+        marker_2cfb2f7f3dc30e78310a9e3d675fd7ca.bindPopup(popup_a96f172ada867fb1e61636ce8f9ec401)
+        ;
+
+        
+    
+    
+                marker_2cfb2f7f3dc30e78310a9e3d675fd7ca.setIcon(div_icon_2726f9dcb3b730028c1e6db5ba877219);
+            
+    
+            var circle_e436019a5d7ad6b3dbfb7319d27251fc = L.circle(
+                [45.022689, 37.480835],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_ff73e773ab7a30ecc96a0201273af308 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfe579cd7480fb3edc03f07d79fe43c4 = $(`<div id="html_bfe579cd7480fb3edc03f07d79fe43c4" style="width: 100.0%; height: 100.0%;"><b>Точка 22: Угодье Тамань 2</b><br>Широта: 45.02269<br>Долгота: 37.48083</div>`)[0];
+                popup_ff73e773ab7a30ecc96a0201273af308.setContent(html_bfe579cd7480fb3edc03f07d79fe43c4);
+            
+        
+
+        circle_e436019a5d7ad6b3dbfb7319d27251fc.bindPopup(popup_ff73e773ab7a30ecc96a0201273af308)
+        ;
+
+        
+    
+    
+            var marker_58f1129dca98435458456e97635e505c = L.marker(
+                [45.022689, 37.480835],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_716acd5aeab2b322b82fb4db602a2685 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                22\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_0b004bee4432243ed8150b22233c94c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_308cd1bac40980f22089f2ca398ade63 = $(`<div id="html_308cd1bac40980f22089f2ca398ade63" style="width: 100.0%; height: 100.0%;"><b>Точка 22: Угодье Тамань 2</b><br>Широта: 45.02269<br>Долгота: 37.48083</div>`)[0];
+                popup_0b004bee4432243ed8150b22233c94c9.setContent(html_308cd1bac40980f22089f2ca398ade63);
+            
+        
+
+        marker_58f1129dca98435458456e97635e505c.bindPopup(popup_0b004bee4432243ed8150b22233c94c9)
+        ;
+
+        
+    
+    
+                marker_58f1129dca98435458456e97635e505c.setIcon(div_icon_716acd5aeab2b322b82fb4db602a2685);
+            
+    
+            var circle_406cd341c99286fd23be80a7a09abe51 = L.circle(
+                [43.7925, 39.4625],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_2467a888a48ec18de2ba95f2dff48580 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f87ebef72599f74043a9a07fbe66f4e1 = $(`<div id="html_f87ebef72599f74043a9a07fbe66f4e1" style="width: 100.0%; height: 100.0%;"><b>Точка 23: Угодье Туапсе 2</b><br>Широта: 43.79250<br>Долгота: 39.46250</div>`)[0];
+                popup_2467a888a48ec18de2ba95f2dff48580.setContent(html_f87ebef72599f74043a9a07fbe66f4e1);
+            
+        
+
+        circle_406cd341c99286fd23be80a7a09abe51.bindPopup(popup_2467a888a48ec18de2ba95f2dff48580)
+        ;
+
+        
+    
+    
+            var marker_e6c0cd552992b7071d03edd938e0cfa3 = L.marker(
+                [43.7925, 39.4625],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_062507075a29e160bb3a7dd6c89aabd7 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                23\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_e872dcc744acc1a64aeda3fa239b97e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b459ba1dbc45484c8d8758abedc99b8 = $(`<div id="html_0b459ba1dbc45484c8d8758abedc99b8" style="width: 100.0%; height: 100.0%;"><b>Точка 23: Угодье Туапсе 2</b><br>Широта: 43.79250<br>Долгота: 39.46250</div>`)[0];
+                popup_e872dcc744acc1a64aeda3fa239b97e8.setContent(html_0b459ba1dbc45484c8d8758abedc99b8);
+            
+        
+
+        marker_e6c0cd552992b7071d03edd938e0cfa3.bindPopup(popup_e872dcc744acc1a64aeda3fa239b97e8)
+        ;
+
+        
+    
+    
+                marker_e6c0cd552992b7071d03edd938e0cfa3.setIcon(div_icon_062507075a29e160bb3a7dd6c89aabd7);
+            
+    
+            var circle_3391fdf6b325aa620e7eb0d292f12637 = L.circle(
+                [45.0624, 39.0255],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_bc16bb9386f62979eec006eabec03b49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c86c21087c34df4a2e8799e523900f2b = $(`<div id="html_c86c21087c34df4a2e8799e523900f2b" style="width: 100.0%; height: 100.0%;"><b>Точка 24: Угодье Славянск-на-Кубани</b><br>Широта: 45.06240<br>Долгота: 39.02550</div>`)[0];
+                popup_bc16bb9386f62979eec006eabec03b49.setContent(html_c86c21087c34df4a2e8799e523900f2b);
+            
+        
+
+        circle_3391fdf6b325aa620e7eb0d292f12637.bindPopup(popup_bc16bb9386f62979eec006eabec03b49)
+        ;
+
+        
+    
+    
+            var marker_5078e9a5cfbe61a8e36fc75a33e08431 = L.marker(
+                [45.0624, 39.0255],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_2e846ab56724e926be5b9dd2cb2b4b8a = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                24\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_dc774b21e286d74a749c523c499bca82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fcde3d3b3e57cbfa73754bcf585e480 = $(`<div id="html_8fcde3d3b3e57cbfa73754bcf585e480" style="width: 100.0%; height: 100.0%;"><b>Точка 24: Угодье Славянск-на-Кубани</b><br>Широта: 45.06240<br>Долгота: 39.02550</div>`)[0];
+                popup_dc774b21e286d74a749c523c499bca82.setContent(html_8fcde3d3b3e57cbfa73754bcf585e480);
+            
+        
+
+        marker_5078e9a5cfbe61a8e36fc75a33e08431.bindPopup(popup_dc774b21e286d74a749c523c499bca82)
+        ;
+
+        
+    
+    
+                marker_5078e9a5cfbe61a8e36fc75a33e08431.setIcon(div_icon_2e846ab56724e926be5b9dd2cb2b4b8a);
+            
+    
+            var circle_7d90e9547942d2268707d32b37e8f938 = L.circle(
+                [44.1931, 39.4828],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_ecc900a9eb94f42ebc7e8f0c6d97064d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3d0c265a9c5ef3d6396c767b635bf52 = $(`<div id="html_c3d0c265a9c5ef3d6396c767b635bf52" style="width: 100.0%; height: 100.0%;"><b>Точка 25: Угодье Джубга 1</b><br>Широта: 44.19310<br>Долгота: 39.48280</div>`)[0];
+                popup_ecc900a9eb94f42ebc7e8f0c6d97064d.setContent(html_c3d0c265a9c5ef3d6396c767b635bf52);
+            
+        
+
+        circle_7d90e9547942d2268707d32b37e8f938.bindPopup(popup_ecc900a9eb94f42ebc7e8f0c6d97064d)
+        ;
+
+        
+    
+    
+            var marker_5316571ea1f2ad299713db2abdb66e65 = L.marker(
+                [44.1931, 39.4828],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_d749041d4b53daf8b894e29dc3acfc69 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                25\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_eca1b1f36f21b207688a31406fe479e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bf54a76538a579787a28903b0acf5ef = $(`<div id="html_4bf54a76538a579787a28903b0acf5ef" style="width: 100.0%; height: 100.0%;"><b>Точка 25: Угодье Джубга 1</b><br>Широта: 44.19310<br>Долгота: 39.48280</div>`)[0];
+                popup_eca1b1f36f21b207688a31406fe479e1.setContent(html_4bf54a76538a579787a28903b0acf5ef);
+            
+        
+
+        marker_5316571ea1f2ad299713db2abdb66e65.bindPopup(popup_eca1b1f36f21b207688a31406fe479e1)
+        ;
+
+        
+    
+    
+                marker_5316571ea1f2ad299713db2abdb66e65.setIcon(div_icon_d749041d4b53daf8b894e29dc3acfc69);
+            
+    
+            var circle_236a4a86e25414b2556920e81aa695cd = L.circle(
+                [44.1924, 39.4819],
+                {"bubblingMouseEvents": true, "color": "#d7191c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d7191c", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24000, "stroke": true, "weight": 1.5}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_c5d7e8465dd0fa97eae283eef6b6922b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07e9d4cf9eb255465304e47743edee82 = $(`<div id="html_07e9d4cf9eb255465304e47743edee82" style="width: 100.0%; height: 100.0%;"><b>Точка 26: Угодье Джубга 2</b><br>Широта: 44.19240<br>Долгота: 39.48190</div>`)[0];
+                popup_c5d7e8465dd0fa97eae283eef6b6922b.setContent(html_07e9d4cf9eb255465304e47743edee82);
+            
+        
+
+        circle_236a4a86e25414b2556920e81aa695cd.bindPopup(popup_c5d7e8465dd0fa97eae283eef6b6922b)
+        ;
+
+        
+    
+    
+            var marker_c0a9a486d0a996aaf460e50c26e09522 = L.marker(
+                [44.1924, 39.4819],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_6604a90d058e3dac84e52fbac387e58f = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                background-color: #d7191c;\n                color: white;\n                width: 28px;\n                height: 28px;\n                border-radius: 50%;\n                text-align: center;\n                line-height: 28px;\n                font-weight: bold;\n                font-size: 14px;\n                font-family: Arial, sans-serif;\n                border: 2px solid white;\n                box-shadow: 1px 1px 4px rgba(0,0,0,0.6);\n            \"\u003e\n                26\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+        var popup_819db3fbd1fe2770f33d380daac2e359 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_788ccba9bf9d49a14394f99c0cf2e09e = $(`<div id="html_788ccba9bf9d49a14394f99c0cf2e09e" style="width: 100.0%; height: 100.0%;"><b>Точка 26: Угодье Джубга 2</b><br>Широта: 44.19240<br>Долгота: 39.48190</div>`)[0];
+                popup_819db3fbd1fe2770f33d380daac2e359.setContent(html_788ccba9bf9d49a14394f99c0cf2e09e);
+            
+        
+
+        marker_c0a9a486d0a996aaf460e50c26e09522.bindPopup(popup_819db3fbd1fe2770f33d380daac2e359)
+        ;
+
+        
+    
+    
+                marker_c0a9a486d0a996aaf460e50c26e09522.setIcon(div_icon_6604a90d058e3dac84e52fbac387e58f);
+            
+    
+            var marker_d1b499c6918465d237e4af9ca39d0b68 = L.marker(
+                [44.522779, 39.123758],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var icon_778e157c9be5e4983c23e46fe76c7c43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa3227ef2815e08800b9e72aea6cc1ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_191151c790effecdee87ae1e0f9450f9 = $(`<div id="html_191151c790effecdee87ae1e0f9450f9" style="width: 100.0%; height: 100.0%;"><b>Дивноград (Точка 1)</b><br>44.52278, 39.12376</div>`)[0];
+                popup_aa3227ef2815e08800b9e72aea6cc1ba.setContent(html_191151c790effecdee87ae1e0f9450f9);
+            
+        
+
+        marker_d1b499c6918465d237e4af9ca39d0b68.bindPopup(popup_aa3227ef2815e08800b9e72aea6cc1ba)
+        ;
+
+        
+    
+    
+                marker_d1b499c6918465d237e4af9ca39d0b68.setIcon(icon_778e157c9be5e4983c23e46fe76c7c43);
+            
+    
+            var marker_4b4a830653d5d32e637a7cccdafdc83b = L.marker(
+                [44.481389, 39.072582],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var icon_f0fd430da6fa569889eadffcb64b29eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_348ab3c57ac2c2cf39c5c7750f90a8e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_720f7a7de116ab0af0d0a5e500a56f35 = $(`<div id="html_720f7a7de116ab0af0d0a5e500a56f35" style="width: 100.0%; height: 100.0%;"><b>Дивноград (Точка 2)</b><br>44.48139, 39.07258</div>`)[0];
+                popup_348ab3c57ac2c2cf39c5c7750f90a8e9.setContent(html_720f7a7de116ab0af0d0a5e500a56f35);
+            
+        
+
+        marker_4b4a830653d5d32e637a7cccdafdc83b.bindPopup(popup_348ab3c57ac2c2cf39c5c7750f90a8e9)
+        ;
+
+        
+    
+    
+                marker_4b4a830653d5d32e637a7cccdafdc83b.setIcon(icon_f0fd430da6fa569889eadffcb64b29eb);
+            
+    
+            var marker_6f5abd1b47197161a7b2de0fdf989bf1 = L.marker(
+                [44.467698, 39.203277],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var icon_ba6e1d9a0c4abe5bfa3297d2d3f17c49 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_035c70a056168c92812e0b580d6ec406 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29a2061969ba4acb670cff780b8d4e11 = $(`<div id="html_29a2061969ba4acb670cff780b8d4e11" style="width: 100.0%; height: 100.0%;"><b>Дивноград (Точка 3)</b><br>44.46770, 39.20328</div>`)[0];
+                popup_035c70a056168c92812e0b580d6ec406.setContent(html_29a2061969ba4acb670cff780b8d4e11);
+            
+        
+
+        marker_6f5abd1b47197161a7b2de0fdf989bf1.bindPopup(popup_035c70a056168c92812e0b580d6ec406)
+        ;
+
+        
+    
+    
+                marker_6f5abd1b47197161a7b2de0fdf989bf1.setIcon(icon_ba6e1d9a0c4abe5bfa3297d2d3f17c49);
+            
+    
+            var marker_2200c942db28a0febc1a836eb105a169 = L.marker(
+                [44.528257, 39.201152],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var icon_0912030edd29811f019130a69205ca41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d0237b85abe96c56801d1e200d04aa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_923975ea7728e1c9134312c40831d0d1 = $(`<div id="html_923975ea7728e1c9134312c40831d0d1" style="width: 100.0%; height: 100.0%;"><b>Дивноград (Точка 4)</b><br>44.52826, 39.20115</div>`)[0];
+                popup_2d0237b85abe96c56801d1e200d04aa2.setContent(html_923975ea7728e1c9134312c40831d0d1);
+            
+        
+
+        marker_2200c942db28a0febc1a836eb105a169.bindPopup(popup_2d0237b85abe96c56801d1e200d04aa2)
+        ;
+
+        
+    
+    
+                marker_2200c942db28a0febc1a836eb105a169.setIcon(icon_0912030edd29811f019130a69205ca41);
+            
+    
+            var polygon_fe7644922999dc3a5a7e00d3844f8d31 = L.polygon(
+                [[44.522779, 39.123758], [44.481389, 39.072582], [44.467698, 39.203277], [44.528257, 39.201152]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+        var popup_a168b3a19bac27c868c27ce3841bcef0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2296afd078736153a457b07c6bfb7084 = $(`<div id="html_2296afd078736153a457b07c6bfb7084" style="width: 100.0%; height: 100.0%;"><b>Территория: Дивноград</b></div>`)[0];
+                popup_a168b3a19bac27c868c27ce3841bcef0.setContent(html_2296afd078736153a457b07c6bfb7084);
+            
+        
+
+        polygon_fe7644922999dc3a5a7e00d3844f8d31.bindPopup(popup_a168b3a19bac27c868c27ce3841bcef0)
+        ;
+
+        
+    
+    
+            var marker_26e7077f2381b979fbbbec739415a303 = L.marker(
+                [44.50003075, 39.15019225],
+                {
+}
+            ).addTo(map_0539def1ab3dad4a77dc3af1bc362222);
+        
+    
+            var div_icon_2bf6cbcf0a21064fbe68047d4d240ee4 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            font-size: 20px; \n            font-weight: bold; \n            color: #006400; \n            text-align: center;\n            text-shadow: \n                -2px -2px 0 #fff,  \n                 2px -2px 0 #fff,  \n                -2px  2px 0 #fff,  \n                 2px  2px 0 #fff,\n                 0 0 8px rgba(255,255,255,0.8); \n            white-space: nowrap;\n        \"\u003e\n            \u0414\u0438\u0432\u043d\u043e\u0433\u0440\u0430\u0434\n        \u003c/div\u003e\n        ",
+  "className": "empty",
+});
+        
+    
+                marker_26e7077f2381b979fbbbec739415a303.setIcon(div_icon_2bf6cbcf0a21064fbe68047d4d240ee4);
+            
+</script>
+</html>
